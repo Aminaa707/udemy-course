@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-12 col-md-9">
                             <div class="card-img mx-auto rounded-circle">
-                                <img src="{{(!empty($editData->profile_img)? url('upload/admin_images/'.$editData->profile_img) : url('upload/no_images.png') )}}" alt="user image" width="200px">
+                                <img id="show_img" src="{{(!empty($editData->profile_img)? url('upload/admin_images/'.$editData->profile_img) : url('upload/no_images.png') )}}" alt="user image" width="200px">
                             </div>
                         </div>
                     </div>
